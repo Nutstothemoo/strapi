@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "festivals",
+  "info": {
+    "singularName": "festival",
+    "pluralName": "festivals",
+    "displayName": "festival"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "affiche": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "date": {
+      "type": "date"
+    },
+    "tags": {
+      "type": "text"
+    },
+    "titre": {
+      "type": "string"
+    }
+  }
+}

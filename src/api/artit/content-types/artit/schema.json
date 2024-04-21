@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "artits",
+  "info": {
+    "singularName": "artit",
+    "pluralName": "artits",
+    "displayName": "Artit",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "name": {
+      "type": "string"
+    },
+    "tag": {
+      "type": "enumeration",
+      "enum": [
+        "house",
+        "techno",
+        "downtempo"
+      ]
+    },
+    "slug": {
+      "type": "string"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "festival": {
+      "type": "enumeration",
+      "enum": [
+        "lille",
+        "ultrech",
+        "Bruxelles"
+      ]
+    }
+  }
+}
